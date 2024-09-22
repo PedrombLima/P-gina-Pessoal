@@ -1,0 +1,102 @@
+/* Reset básico para remover margens e preenchimentos padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fce2ba;
+    color: #ffee00;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 
+        -1px -1px 0px black,  
+         1px -1px 0px black,
+        -1px  1px 0px black,
+         1px  1px 0px black;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    
+}
+
+header p {
+    font-size: 1.2em;
+    color: #ffee00;
+    
+}
+
+nav {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #0056b3;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #ffee00;
+    text-shadow: 
+        -1px -1px 0px black,  
+         1px -1px 0px black,
+        -1px  1px 0px black,
+         1px  1px 0px black;
+}
+
+section p, section ul {
+    font-size: 1.1em;
+    color: #724a00;
+    
+}
+
+section ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+section ul li {
+    margin-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 0.9em;
+    color: #ffee00;
+    text-shadow: 
+    -1px -1px 0px black,  
+     1px -1px 0px black,
+    -1px  1px 0px black,
+     1px  1px 0px black;
+}
